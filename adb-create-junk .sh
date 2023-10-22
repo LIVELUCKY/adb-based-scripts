@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script to overwrite free space on an Android device to ensure data is unrecoverable.
-# Usage: ./adb-create-junk .sh [initial_size_MB] [min_size_MB] [stop_size_MB]
+# Usage: ./adb-create-junk.sh [initial_size_MB] [min_size_MB] [stop_size_MB]
 # Default: If no arguments are provided, the script will use 32768 MB as the initial size, 1 MB as the minimum size, and will fill the whole device.
 
 initial_size=${1:-32768} 
